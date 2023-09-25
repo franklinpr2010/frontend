@@ -1,6 +1,6 @@
 
-# store frontend
-Este pequeno projeto é parte do material didático da disciplina Desenvolvimento Full Stack Avamçado da PUC-Rio. A ideia inicial do projeto como escopo era realizar o cadastro de pedidos, produtos e usuários, esse projeto consiste em um loja on line onde serão vendidos diversos produtos.
+# Store frontend
+Este pequeno projeto é parte do material didático da disciplina Desenvolvimento Full Stack Avançado da PUC-Rio. A ideia inicial do projeto como escopo era realizar o cadastro de pedidos, produtos e usuários, esse projeto consiste em um loja on line onde serão vendidos diversos produtos.
 Esse Projeto back-end foi construído em python com o framework flask, html, boostrap e javascript.
 
 O front end da aplicação vai se comunicar com a api do usuário através do micro serviço de usuário para registrar o usuário e se logar no sistema, bem como realizará a comunicação com o microserviço de produto para resgatar os produtos cadastrados no sistema, assim como vinculará os ítens ao carrinho e no final efetuará o checkout desse carrinho. Abaixo está definido o diagrama arquitetural.
