@@ -3,6 +3,8 @@
 Este pequeno projeto é parte do material didático da disciplina Desenvolvimento Full Stack Avamçado da PUC-Rio. A ideia inicial do projeto como escopo era realizar o cadastro de pedidos, produtos e usuários, esse projeto consiste em um loja on line onde serão vendidos diversos produtos.
 Esse Projeto back-end foi construído em python com o framework flask, html, boostrap e javascript.
 
+O front end da aplicação vai se comunicar com a api do usuário através do micro serviço de usuário para registrar o usuário e se logar no sistema, bem como realizará a comunicação com o microserviço de produto para resgatar os produtos cadastrados no sistema, assim como vinculará os ítens ao carrinho e no final efetuará o checkout desse carrinho. Abaixo está definido o diagrama arquitetural.
+
 Diagrama arquitetural (Micro Serviços)
 <br />![image](https://github.com/franklinpr2010/frontend/assets/2296319/dad1d9dd-2ba1-4d5a-991b-ed737bbe2c3a)
 
