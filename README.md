@@ -1,9 +1,6 @@
 
 # store frontend
 Este pequeno projeto é parte do material didático da disciplina Desenvolvimento Full Stack Básico da PUC-Rio. A ideia inicial do projeto como escopo era realizar o cadastro de pedidos, produtos e usuários, esse projeto consiste em um loja on line onde serão vendidos diversos produtos.
-
-
-# rdd_backend
 Projeto back-end construído em python com o framework flask, html, boostrap e javascript.
 
 <br />Rode os seguintes comandos na maquina local:
