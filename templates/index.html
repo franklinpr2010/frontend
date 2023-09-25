@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Página principal{% endblock %}
+
+{% block pageContent %}
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+
+                {% if produtos | length > 0 %}
+                    {% for produto in produtos.result %}
+
+                        {% set url = "/produtos/" + produto.slug %}
+                        {% set produto_cover = "images/" + produto.image %}
+                        <div class="col-md-3">
+                            <div class="card mb-4 box-shadow">
+                                <img class="card-img-top"
+                                     alt="" style="width: 100%; display: block;"
+                                     src="{{ url_for('static', filename=produto_cover) }}"
+                                     data-holder-rendered="true">
+                                <div class="card-body">
+                                    <p class="card-text">Preço: {{ produto.price }} $</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <a href="{{ url }}" class="btn btn-sm btn-outline-secondary">Ver detalhes</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <strong>Nenhum produto encontrado.</strong>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
