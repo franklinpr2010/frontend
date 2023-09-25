@@ -3,6 +3,10 @@
 Este pequeno projeto é parte do material didático da disciplina Desenvolvimento Full Stack Avamçado da PUC-Rio. A ideia inicial do projeto como escopo era realizar o cadastro de pedidos, produtos e usuários, esse projeto consiste em um loja on line onde serão vendidos diversos produtos.
 Projeto back-end construído em python com o framework flask, html, boostrap e javascript.
 
+Diagrama arquitetural (Micro Serviços)
+<br />![image](https://github.com/franklinpr2010/frontend/assets/2296319/dad1d9dd-2ba1-4d5a-991b-ed737bbe2c3a)
+
+
 <br />Rode os seguintes comandos na maquina local:
 <br />1 - Criar o ambiente virtual no venv para executar o projeto. Execute os seguintes comandos no console.
 <br /> pip install virtualenv
@@ -20,6 +24,10 @@ Projeto back-end construído em python com o framework flask, html, boostrap e j
 <br /> py [diretódio do projeto]/app.py
 
 Acesse: http://192.168.2.103:5000
+
+
+
+
 
 
 
