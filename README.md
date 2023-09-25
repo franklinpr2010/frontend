@@ -13,7 +13,10 @@ Projeto back-end construído em python com o framework flask, html, boostrap e j
 3 - Depois de instalado o ambiente virtual executar o activate para executar o ambiente virtual.
 <br /> cd .\virtualmachine\Scripts\ 
 
-4 - Execute o projeto:
+4 - Rode o comando para instalar as dependências
+<br /> pip -r requirements.txt
+
+5 - Execute o projeto:
 <br /> py [diretódio do projeto]/app.py
 
 Acesse: http://192.168.2.103:5000
