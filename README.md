@@ -6,7 +6,8 @@ Esse Projeto back-end foi construído em python com o framework flask, html, boo
 O front end da aplicação vai se comunicar com a api do usuário através do micro serviço de usuário para registrar o usuário e se logar no sistema, bem como realizará a comunicação com o microserviço de produto para resgatar os produtos cadastrados no sistema, assim como vinculará os ítens ao carrinho e no final efetuará o checkout desse carrinho. Abaixo está definido o diagrama arquitetural.
 
 Diagrama arquitetural (Micro Serviços)
-<br />![image](https://github.com/franklinpr2010/frontend/assets/2296319/dad1d9dd-2ba1-4d5a-991b-ed737bbe2c3a)
+<br />![image](https://github.com/franklinpr2010/frontend/assets/2296319/a3cc66e8-01dc-49b4-b48c-b02cbb93b7c7)
+
 
 
 <br />Rode os seguintes comandos na maquina local:
