@@ -28,6 +28,53 @@ Diagrama arquitetural (Micro Serviços)
 Acesse: http://192.168.2.103:5000
 
 
+Manual do usuário.
+
+# Adicionar produto e concluir compra.
+
+1) Acesse a página inicial http://192.168.2.103:5000,essa página mostrara os produtos cadastrados
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/a9f32a8c-69f8-4cae-8e22-d26beb8080ac)
+
+2) Para adicionar o produto ao carrinho basta clicar no botão ver detalhes.
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/a004bb0d-7c4e-41fb-9fac-fe1822d85af3)
+
+3) Ao clica em ver detalhes o sistema mostrará o produto e o botão com a opção 'Adicionar ao carrinho'.
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/7cfd0fbb-c928-41ae-87bd-6d715cb4eefd)
+
+4) Ao clicar em adicionar carrinho ele vai enviar a tela de login, use o usuário e senha, senão tiver usuário cadastre um usuário no menu 'Cadastro de usuário'
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/e0d9605a-f833-44bc-af52-abc5ebb88ca3)
+
+5) Ao logar você será redirecionado para a tela de detalhes onde poderá adicionar ao carrinho.
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/24585690-3080-4f6f-9956-cff91bf2e02b)
+
+6) Ao clicar em Adicionar ao carrinho aparecerá um balão no menu em checkout informando que adicionou um item ao carrinho.
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/bfa8b9a2-a4c7-46b8-9f6d-4930e4f35b1c)
+
+7) Ao clicar em checkout finalizará a compra e será concluída.
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/459ac0d8-1c80-4abb-bafd-bacc186bb652)
+
+# Cadastro de usuário
+
+1) Clique no menu cadastrar usuário.
+
+![image](https://github.com/franklinpr2010/frontend/assets/2296319/98f726a2-8f9c-49d5-9138-30e02cff09e7)
+
+2) Cadastre os campos usuário, senha e informe um cep válido e clique em enviar.
+
+
+
+
+
+   
+
+
 
 
 
